@@ -504,7 +504,7 @@ function detect(url){
   return {url:u,platform:p,type:type,ytId:ytId,host:host};
 }
 var currentDetected=null, currentFmtTab='all', selectedFmtLabel='', dlBusy=false;
-var BACKEND_BASE='https://freemediatools-backend.onrender.com';
+var BACKEND_BASE='https://freemediatools-backend-production.up.railway.app';
 var backendFormats=null, backendTitle='', backendDuration=null, backendFetchToken=0;
 function fmtDuration(sec){ if(sec==null||isNaN(sec)) return ''; sec=Math.round(+sec); var h=Math.floor(sec/3600), m=Math.floor((sec%3600)/60), s=sec%60; function p(n){return (n<10?'0':'')+n;} return h>0?(h+':'+p(m)+':'+p(s)):(m+':'+p(s)); }
 function fmtSize(bytes){ if(!bytes||isNaN(bytes)) return ''; var mb=+bytes/1048576; return mb>=1?(' • '+mb.toFixed(1)+' MB'):(' • '+Math.max(1,Math.round(+bytes/1024))+' KB'); }
