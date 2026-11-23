@@ -475,6 +475,30 @@ function showResult(){
   updateY2MateBox();
   result.scrollIntoView({behavior:'smooth',block:'nearest'});
 }
+function copyY2MateLink(){
+  var st=document.getElementById('y2mateStatus');
+  if(!currentDetected||!currentDetected.url){ if(st) st.textContent='Pehle upar video ka link paste karke Fetch dabayein.'; return; }
+  var url=currentDetected.url;
+  function done(){ if(st) st.textContent='✅ Video link copy ho gaya! Ab Y2Mate (y2mate.tw) par link paste karke Search dabayein, phir MP4 quality choose karke Download karein.'; }
+  function fallback(){
+    try{
+      var ta=document.createElement('textarea');
+      ta.value=url; ta.setAttribute('readonly',''); ta.style.cssText='position:fixed;top:0;left:0;opacity:0.01;width:10px;height:10px';
+      document.body.appendChild(ta); ta.focus(); ta.select(); ta.setSelectionRange(0,url.length);
+      var ok=false; try{ ok=document.execCommand('copy'); }catch(e){}
+      ta.remove();
+      if(ok){ done(); return; }
+    }catch(e){}
+    if(st) st.textContent='Link ye hai — copy karke Y2Mate par paste karein: '+url;
+  }
+  if(navigator.clipboard&&navigator.clipboard.writeText){ navigator.clipboard.writeText(url).then(done,fallback); }
+  else fallback();
+}
+function bindY2Mate(){
+  var btn=document.getElementById('y2mateBtn'), copyBtn=document.getElementById('y2mateCopyBtn');
+  if(btn) btn.addEventListener('click',copyY2MateLink);
+  if(copyBtn) copyBtn.addEventListener('click',copyY2MateLink);
+}
 bindY2Mate();
 linkInput.addEventListener('paste',function(){ setTimeout(function(){ if(linkInput.value.trim().length>8) showResult(); },120); });
 linkInput.addEventListener('input',function(){ if(linkInput.value.trim().match(/^https?:\/\/.+\..+/)) { /* typing ke dauran disturb na karein — sirf paste par auto */ } });
