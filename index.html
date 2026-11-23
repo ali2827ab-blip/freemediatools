@@ -523,6 +523,12 @@ function normalizeBackendFormats(list){
     var res=num>=1080?'1920 × 1080':(num>=720?'1280 × 720':(num>=480?'854 × 480':(num>=360?'640 × 360':'')));
     out.push({label:num+'p', ext:(f.ext||'mp4').toUpperCase(), kind:'video', qualityNum:num, badge:badge, meta:(res?res+' • ':'')+'MP4 video — backend se seedha Gallery / Downloads mein save hoga'+fmtSize(f.filesize)});
   });
+  // Backend ki formats list mein audio entry ho ya na ho — Audio MP3 ka button hamesha dikhao,
+  // kyunke backend ka /api/audio endpoint har video ka asli MP3 deta hai.
+  var hasAudio=out.some(function(f){return f.kind==='audio';});
+  if(!hasAudio){
+    out.push({label:'Audio MP3', ext:'MP3', kind:'audio', qualityNum:0, badge:'MP3', meta:'Sirf audio / gaana — backend se seedha MP3 download hoga'});
+  }
   out.sort(function(a,b){ if(a.kind!==b.kind) return a.kind==='video'?-1:1; return b.qualityNum-a.qualityNum; });
   return out;
 }
