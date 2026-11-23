@@ -109,29 +109,6 @@ textarea{min-height:170px;resize:vertical}
 .title-list{list-style:none;padding:0;margin:12px 0 0;display:grid;gap:9px}.title-list li{border:1px solid var(--line);border-radius:12px;padding:11px 12px;display:flex;justify-content:space-between;gap:12px;align-items:flex-start;background:var(--bg)} .title-list li b{font-size:14.5px;line-height:1.4}.title-list small{color:var(--muted);white-space:nowrap;font-weight:700}
 .kw-table{width:100%;border-collapse:collapse;font-size:14px;margin-top:12px}.kw-table th{text-align:left;padding:9px 8px;border-bottom:2px solid var(--line);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)} .kw-table td{padding:8px;border-bottom:1px solid var(--line);vertical-align:top}.kw-scroll{overflow:auto;max-height:360px;border:1px solid var(--line);border-radius:12px;margin-top:12px}
 .output-box{width:100%;min-height:110px}
-.fmt-wrap{margin-top:18px;border-top:1px solid var(--line);padding-top:16px;text-align:left}
-.fmt-wrap h4{margin:0;font-size:17px;line-height:1.3}
-.fmt-wrap p.sub{color:var(--muted);font-size:13.5px;margin:6px 0 0}
-.fmt-tabs{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0 10px}
-.fmt-tab{border:1.5px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:8px 14px;font-weight:800;font-size:13.5px;cursor:pointer;min-height:40px}
-.fmt-tab.active{background:var(--green);color:#fff;border-color:var(--green)}
-.fmt-list{display:grid;gap:8px}
-.fmt-row{display:flex;justify-content:space-between;gap:12px;align-items:center;border:1px solid var(--line);border-radius:12px;padding:11px 12px;background:var(--bg)}
-.fmt-row.selected{border-color:var(--green);background:var(--chip);box-shadow:0 0 0 1px var(--green) inset}
-.fmt-left{min-width:0;flex:1}
-.fmt-q{font-weight:800;font-size:15px;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
-.fmt-badge{font-size:11px;font-weight:800;letter-spacing:.04em;text-transform:uppercase;background:var(--amber-bg);color:#92400e;padding:4px 7px;border-radius:999px}
-.fmt-badge.audio{background:#e0e7ff;color:#3730a3}
-.fmt-meta{font-size:13px;color:var(--muted);margin-top:2px;line-height:1.45}
-.fmt-dl{flex-shrink:0;min-height:42px;padding:0 14px;font-size:13.5px}
-.process-box{margin-top:14px;background:var(--bg2);border:1px solid var(--line);border-radius:14px;padding:16px}
-.process-box h5{margin:0 0 4px;font-size:15.5px}
-.process-box p{color:var(--muted);font-size:13.5px;margin:0}
-.process-box ol{margin:10px 0 0 18px;padding:0;color:var(--ink);font-size:14.5px;line-height:1.6}
-.process-box ol li{margin:6px 0}
-.process-box ol li span{color:var(--muted)}
-.thumb-dls{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
-.thumb-dls a{font-size:13px;min-height:38px;padding:0 12px}
 .y2mate-box{display:none;margin-top:14px;background:var(--amber-bg);border:2px solid var(--amber);border-radius:14px;padding:16px;text-align:left}
 .y2mate-box.show{display:block}
 .y2mate-box.highlight{box-shadow:0 0 0 4px rgba(255,122,26,.28)}
@@ -140,11 +117,6 @@ textarea{min-height:170px;resize:vertical}
 .y2mate-box ol{margin:10px 0 0 18px;padding:0;font-size:14px;line-height:1.6;color:var(--ink)}
 .y2mate-box ol li{margin:5px 0}
 .y2mate-box ol li span{color:var(--muted)}
-.backend-status{font-size:14.5px;font-weight:700;color:var(--ink);margin-top:12px;min-height:22px}
-.backend-status.loading{color:var(--green)}
-.backend-note{display:none;margin-top:14px;background:var(--amber-bg);border:2px solid var(--amber);border-radius:14px;padding:14px 16px;text-align:left;font-size:14.5px;line-height:1.55}
-.backend-note.show{display:block}
-.backend-note b{color:var(--ink)}
 footer{background:var(--dark);color:#cfe8d8;padding:38px 0} footer a{color:#7ee2b0} .foot{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap} footer p{color:#9dbbab;font-size:14px;max-width:620px}
 @media(max-width:860px){.hero-grid,.grid2,.creator-grid{grid-template-columns:1fr}.tools{grid-template-columns:1fr 1fr}.guides{grid-template-columns:1fr}.navlinks{display:none}.result-flex{flex-direction:column}.result img{width:100%;height:auto;aspect-ratio:16/9}.title-list li{flex-direction:column}}
 @media(max-width:520px){.tools{grid-template-columns:1fr}.pastebox{flex-direction:column}.pastebox input{padding:12px}.hero{padding-top:34px}}
@@ -164,7 +136,7 @@ footer{background:var(--dark);color:#cfe8d8;padding:38px 0} footer a{color:#7ee2
   <div>
     <span class="eyebrow">● All tools free — no watermark</span>
     <h1>Paste a link. <em>Download, convert</em> & edit media — free.</h1>
-    <p class="lead">YouTube, Instagram, TikTok, Facebook — kisi bhi video ka link paste karo, quality choose karo aur <strong>Download</strong> dabao: file seedha tumhare device ke <strong>Downloads / Gallery</strong> mein save ho jayegi — YouTube app ke andar nahi rukegi. Plus working tools below: video to MP3, background remover and transcript — all inside your browser.</p>
+    <p class="lead">YouTube, Instagram, TikTok, Facebook — kisi bhi video ka link paste karo: neeche <strong>Y2Mate</strong> wala section khul jayega, wahan se quality choose karke file seedha apne device ke <strong>Downloads / Gallery</strong> mein download karo — YouTube app ke andar nahi rukegi. Plus working tools below: video to MP3, background remover and transcript — all inside your browser.</p>
     <div class="pastebox" id="downloader">
       <input id="linkInput" type="text" placeholder="Paste link here — youtube.com, instagram.com, tiktok.com…" aria-label="Paste media link">
       <button class="btn btn-outline" id="pasteBtn" type="button">📋 Paste</button>
@@ -181,44 +153,13 @@ footer{background:var(--dark);color:#cfe8d8;padding:38px 0} footer a{color:#7ee2
           <p id="resDesc" style="color:var(--muted);font-size:14px;margin:0"></p>
           <div class="actions">
             <a class="btn btn-dark" id="resOpen" href="#" target="_blank" rel="noopener" style="min-height:44px">Open Original ↗</a>
-            <a class="btn btn-green" href="#formatPanel" style="min-height:44px">Download Formats ↓</a>
             <button class="btn btn-outline" id="resTranscriptBtn" type="button">Get Transcript Guide</button>
           </div>
           <p class="note">Please only download content you own or have permission to use.</p>
-          <div class="backend-status" id="backendStatus" aria-live="polite"></div>
-          <div class="backend-note" id="backendNote" role="note"></div>
-
-          <!-- DOWNLOAD FORMAT SYSTEM — link ke neeche hamesha dikhega -->
-          <div class="fmt-wrap" id="formatPanel">
-            <h4>⬇ Download Formats — apni quality choose karke Download dabayein</h4>
-            <p class="sub">Neeche saari qualities ek saath di hain — <b>1080p Full HD, 720p HD, 480p, 360p, 240p, 144p (sab MP4)</b> aur <b>Audio MP3 / M4A</b>. Har quality ke samne us ka apna <b>Download</b> button hai — button dabate hi file download server se aakar seedha aap ke device ke <b>Downloads / Gallery</b> mein save ho jati hai. Koi steps follow nahi karne, kisi aur app mein nahi jana. File ka size video ki length par depend karta hai — andaza har quality ke neeche likha hai.</p>
-            <div class="fmt-tabs" role="tablist" aria-label="Download format type">
-              <button type="button" class="fmt-tab active" data-fmt-tab="all">⬇ All Formats — Video + Audio</button>
-              <button type="button" class="fmt-tab" data-fmt-tab="video">🎬 Video — MP4</button>
-              <button type="button" class="fmt-tab" data-fmt-tab="audio">🎵 Audio — MP3 / M4A</button>
-              <button type="button" class="fmt-tab" data-fmt-tab="photo">🖼️ Photo / Thumbnail</button>
-            </div>
-            <div class="fmt-list" id="fmtList" aria-live="polite"></div>
-
-            <div class="process-box" id="processBox">
-              <h5 id="processTitle">Download Process</h5>
-              <p id="processSub">Upar kisi bhi quality par <b>Download</b> dabayein — download yahin se start hoga.</p>
-              <ol id="processSteps">
-                <li><b>Step 1 — Link paste karein:</b> <span>Ho gaya — link pehchan liya gaya hai.</span></li>
-                <li><b>Step 2 — Quality choose karein:</b> <span>1080p, 720p, 480p, 360p, 240p, 144p ya Audio MP3 — jo chahiye us par Download dabayein.</span></li>
-                <li><b>Step 3 — File download hogi:</b> <span>Download start ho jayega aur file seedha Downloads / Gallery mein save hogi — phir apni file ko yahin MP3, background remove ya transcript ke liye use karein.</span></li>
-              </ol>
-              <div class="status" id="dlStatus" style="font-weight:700;color:var(--ink)"></div>
-              <div class="progress" id="dlProgWrap"><i id="dlProg"></i></div>
-              <div class="actions" id="processActions" style="margin-top:12px"></div>
-              <div class="thumb-dls" id="thumbDls"></div>
-              <p class="note" style="margin-top:10px">Sirf wahi content download karein jo aap ka apna hai ya jis ki permission aap ke paas hai. Agar kisi quality ki file asal video mein maujood hi nahi (jaise video 720p mein upload hui aur 1080p manga gaya) to sab se qareebi sab se achhi quality apne aap chun li jati hai aur neeche status mein bata diya jata hai.</p>
-            </div>
-
-            <!-- Y2MATE — TESTED WORKING BACKUP (YouTube) -->
+            <!-- Y2MATE — VIDEO DOWNLOAD (YouTube) -->
             <div class="y2mate-box" id="y2mateBox">
-              <h5>✅ Y2Mate — Backup Download (Tested Working)</h5>
-              <p>Agar upar wala apna download server kabhi fail ho jaye to ye rasta use karein. <b>Y2Mate (y2mate.tw)</b> par is video ke <b>MP4 360p / 480p / 720p / 1080p</b> options milte hain — koi sign-up ya payment nahi. Neeche wala button dabate hi <b>Y2Mate homepage</b> khulega aur tumhara video link <b>khud copy</b> ho jayega — <b>Y2Mate homepage kholein, wahan link paste karein, MP4 quality choose karke download karein.</b></p>
+              <h5>✅ Y2Mate — Video Download (Tested Working)</h5>
+              <p>Is video ko download karne ke liye <b>Y2Mate (y2mate.tw)</b> use karein — wahan is video ke <b>MP4 360p / 480p / 720p / 1080p</b> options milte hain — koi sign-up ya payment nahi. Neeche wala button dabate hi <b>Y2Mate homepage</b> khulega aur tumhara video link <b>khud copy</b> ho jayega — <b>Y2Mate homepage kholein, wahan link paste karein, MP4 quality choose karke download karein.</b></p>
               <div class="actions" style="margin-top:12px">
                 <a class="btn btn-amber" id="y2mateBtn" href="https://y2mate.tw/" target="_blank" rel="noopener" style="min-height:48px">⬇ Y2Mate par MP4 Download karein ↗</a>
                 <button class="btn btn-outline" id="y2mateCopyBtn" type="button">📋 Video Link Copy karein</button>
@@ -232,7 +173,6 @@ footer{background:var(--dark);color:#cfe8d8;padding:38px 0} footer a{color:#7ee2
               </ol>
               <p class="note" style="margin-top:10px">Sirf wahi video download karein jo aap ki apni hai ya jis ki permission aap ke paas hai.</p>
             </div>
-          </div>
         </div>
       </div>
     </div>
@@ -248,7 +188,7 @@ footer{background:var(--dark);color:#cfe8d8;padding:38px 0} footer a{color:#7ee2
       <li><span><strong>Tag Generator</strong> — ek topic likho, YouTube / Instagram / TikTok ke liye ready tags banao</span></li>
       <li><span><strong>Keyword Research</strong> — ek word se usi matlab ke 40+ long-tail keywords banao</span></li>
       <li><span><strong>SEO Title + Viral Title & Hashtags</strong> — title likho to SEO titles, viral titles aur hashtags ek click mein</span></li>
-      <li><span><strong>Direct Video Download</strong> — YouTube link paste karo, 1080p se 144p tak quality choose karo, file Gallery mein save karo</span></li>
+      <li><span><strong>Video Download via Y2Mate</strong> — YouTube link paste karo, neeche Y2Mate section se quality choose karo, file Gallery mein save karo</span></li>
     </ul>
     <div class="actions" style="margin-top:18px"><button class="btn btn-amber" id="downloadSiteBtn" type="button">⬇ Download This Website</button></div>
     <p style="color:#9dbbab;font-size:13px;margin:10px 0 0">Ye button is poori website ko ek HTML file mein download kar dega — file ko kisi bhi browser mein khol kar offline bhi tools use kar sakte hain.</p>
@@ -260,7 +200,7 @@ footer{background:var(--dark);color:#cfe8d8;padding:38px 0} footer a{color:#7ee2
 <section style="padding-top:44px"><div class="wrap">
   <div class="sec-head"><div class="kicker">Free Online Tools</div><h2>Har kaam ke liye ek tool</h2><p>Ek hi website par saare tools — alag-alag site par jane ki zaroorat nahi. Kisi bhi card par tap karo, tool khul jayega.</p></div>
   <div class="tools">
-    <a class="tool-card" href="#downloader"><div class="tool-num">TOOL 01</div><div class="tool-icon">⬇️</div><h3>Video Downloader</h3><p>YouTube, Instagram, TikTok, Facebook link paste karo — quality choose karo aur file seedha Gallery / Downloads mein download karo.</p><span class="link">Use tool →</span></a>
+    <a class="tool-card" href="#downloader"><div class="tool-num">TOOL 01</div><div class="tool-icon">⬇️</div><h3>Video Downloader</h3><p>YouTube, Instagram, TikTok, Facebook link paste karo — neeche Y2Mate section aa jayega, wahan se quality choose karke file seedha Gallery / Downloads mein download karo.</p><span class="link">Use tool →</span></a>
     <a class="tool-card" href="#converter"><div class="tool-num">TOOL 02</div><div class="tool-icon">🎵</div><h3>Video to Audio — MP3 Converter</h3><p>Apni video upload karo, sirf audio nikalo. Gaana, lecture ya podcast — video to MP3 / audio convert karo.</p><span class="link">Convert now →</span></a>
     <a class="tool-card" href="#bg-remover"><div class="tool-num">TOOL 03</div><div class="tool-icon">🖼️</div><h3>Background Remover</h3><p>Photo ka background hatao, transparent PNG banao — product photo, profile pic, thumbnail ke liye perfect.</p><span class="link">Remove background →</span></a>
     <a class="tool-card" href="#transcript"><div class="tool-num">TOOL 04</div><div class="tool-icon">📝</div><h3>Transcript & Subtitles</h3><p>Kisi bhi song / video ki boli ko text mein badlo. Live bol kar transcript banao, TXT ya SRT download karo.</p><span class="link">Get transcript →</span></a>
@@ -435,7 +375,7 @@ footer{background:var(--dark);color:#cfe8d8;padding:38px 0} footer a{color:#7ee2
 <section id="india-pakistan"><div class="wrap">
   <div class="sec-head"><div class="kicker">India &amp; Pakistan — Hindi / Urdu</div><h2>Jo log Google par dhoondhte hain, wahi tools yahan hain</h2><p>India aur Pakistan ke creators roz Hindi, Urdu aur English mix mein ye searches karte hain — har search ka tool aur guide isi page par hai, bina sign-up ke.</p></div>
   <div class="guides">
-    <article class="guide"><span class="badge">Video Download — Hindi / Urdu</span><h3 style="margin-top:10px">Video download kaise kare</h3><p style="color:var(--muted);font-size:14.5px;margin:0">Log search karte hain: <em>youtube video download hindi, video download kaise kare, instagram reel download, tiktok video download pakistan, shorts download guide</em>. Upar link paste karein — quality list (1080p se 144p) aa jayegi, Download dabate hi file seedha Gallery / Downloads mein save ho jayegi.</p><p style="margin:10px 0 0"><a href="#downloader"><strong>Video Downloader kholein →</strong></a></p></article>
+    <article class="guide"><span class="badge">Video Download — Hindi / Urdu</span><h3 style="margin-top:10px">Video download kaise kare</h3><p style="color:var(--muted);font-size:14.5px;margin:0">Log search karte hain: <em>youtube video download hindi, video download kaise kare, instagram reel download, tiktok video download pakistan, shorts download guide</em>. Upar link paste karein — us ke neeche Y2Mate wala section aa jayega; orange button se Y2Mate kholein, wahan MP4 quality choose karke file seedha Gallery / Downloads mein download karein.</p><p style="margin:10px 0 0"><a href="#downloader"><strong>Video Downloader kholein →</strong></a></p></article>
     <article class="guide"><span class="badge">Audio Converter — MP3</span><h3 style="margin-top:10px">Video se MP3 kaise banaye</h3><p style="color:var(--muted);font-size:14.5px;margin:0">Log search karte hain: <em>video to mp3 converter hindi, gaana mp3 download guide, audio converter urdu, video se audio kaise nikale</em>. Apni video upload karein — MP3 / audio browser mein hi ban jayega, koi file kisi server par nahi jati.</p><p style="margin:10px 0 0"><a href="#converter"><strong>MP3 Converter kholein →</strong></a></p></article>
     <article class="guide"><span class="badge">Tag Generator — YouTube</span><h3 style="margin-top:10px">Video ke liye tags kaise banaye</h3><p style="color:var(--muted);font-size:14.5px;margin:0">Log search karte hain: <em>youtube tag generator hindi, video ke tags kaise likhe, viral tags urdu, hindi comedy video tags</em>. Ek topic likho — YouTube, Instagram, TikTok aur Shorts ke liye ready tags, copy aur .TXT download ke saath.</p><p style="margin:10px 0 0"><a href="#tag-generator"><strong>Tag Generator kholein →</strong></a></p></article>
     <article class="guide"><span class="badge">Keyword Research — SEO</span><h3 style="margin-top:10px">Keywords kaise dhoondhe</h3><p style="color:var(--muted);font-size:14.5px;margin:0">Log search karte hain: <em>keyword research hindi, seo keywords urdu, youtube keyword tool india, viral title generator hindi</em>. Ek seed word do — how-to, best, tips aur Hindi / Urdu versions ke saath 40+ long-tail keyword ideas aur SEO titles ban jayenge.</p><p style="margin:10px 0 0"><a href="#keyword-research"><strong>Keyword Research kholein →</strong></a></p></article>
@@ -447,7 +387,7 @@ footer{background:var(--dark);color:#cfe8d8;padding:38px 0} footer a{color:#7ee2
 <section id="guides" style="background:var(--bg2);border-block:1px solid var(--line)"><div class="wrap">
   <div class="sec-head"><div class="kicker">Download Guides — Step by Step</div><h2>Har platform se apni video download karne ka sahi tareeqa</h2><p>Ye official tareeqe kabhi block nahi hote, sab se achhi quality dete hain, aur aap ke account ke liye 100% safe hain.</p></div>
   <div class="guides">
-    <article class="guide"><span class="badge">YouTube Video Download</span><h3 style="margin-top:10px">YouTube video Gallery mein download karo</h3><ol><li>YouTube se video ka link copy karo</li><li>Is page ke upar wale <a href="#downloader">Downloader</a> mein link paste karke <strong>Fetch</strong> dabao</li><li>Apni quality choose karo — 1080p, 720p, 480p, 360p, 240p ya 144p — aur us ke samne <strong>Download</strong> dabao</li><li>MP4 file seedha phone ke <strong>Downloads / Gallery</strong> mein save ho jayegi — YouTube app ke andar nahi rukegi</li><li>Agar apna server kabhi fail ho jaye to wahi neeche <strong>Y2Mate — Backup Download</strong> wala orange button dabao — Y2Mate homepage khulega aur video link khud copy ho jayega; wahan link paste karke MP4 720p choose karke file download kar lo</li><li>Sirf wahi video download karein jo aap ki apni ho ya jis ki permission ho</li></ol></article>
+    <article class="guide"><span class="badge">YouTube Video Download</span><h3 style="margin-top:10px">YouTube video Gallery mein download karo</h3><ol><li>YouTube se video ka link copy karo</li><li>Is page ke upar wale <a href="#downloader">Downloader</a> mein link paste karke <strong>Fetch</strong> dabao</li><li>Link paste karte hi us ke neeche <strong>Y2Mate</strong> wala section aa jayega — orange button dabao, Y2Mate homepage khulega aur video link khud copy ho jayega</li><li>Y2Mate par link paste karke Search dabao, phir apni quality choose karo — 1080p, 720p, 480p ya 360p — aur us ke samne <strong>Download</strong> dabao</li><li>MP4 file seedha phone ke <strong>Downloads / Gallery</strong> mein save ho jayegi — YouTube app ke andar nahi rukegi</li><li>Sirf wahi video download karein jo aap ki apni ho ya jis ki permission ho</li></ol></article>
     <article class="guide"><span class="badge">Instagram Video Downloader</span><h3 style="margin-top:10px">Apni Instagram Reel / video save karo</h3><ol><li>Instagram app mein apni Reel / post kholo</li><li>Share ya ⋯ menu → <strong>Download / Save</strong></li><li>Apni original file ke liye: Meta Accounts Center → Your information → Download your information</li><li>Wahan se saari apni photos aur videos ek saath mil jati hain</li></ol></article>
     <article class="guide"><span class="badge">Audio Downloader</span><h3 style="margin-top:10px">Video se audio (MP3) download karo</h3><ol><li>Pehle upar wale guide se apni video download karo</li><li>Phir is page ke <a href="#converter">Video to MP3 Converter</a> mein woh video upload karo</li><li>“Extract Audio” dabao — audio file download ho jayegi</li><li>Yehi tareeqa gaane, lecture, naat, podcast — har cheez ke liye hai</li></ol></article>
     <article class="guide"><span class="badge">Transcript Download</span><h3 style="margin-top:10px">YouTube video ki transcript nikalo</h3><ol><li>YouTube par video kholo</li><li>Description ke neeche <strong>… more</strong> → <strong>Open transcript</strong></li><li>Poori original transcript side par aa jayegi — copy kar lo</li><li>Ya is page ke <a href="#transcript">Transcript Tool</a> mein bol kar apni transcript banao aur .SRT download karo</li></ol></article>
@@ -462,7 +402,7 @@ footer{background:var(--dark);color:#cfe8d8;padding:38px 0} footer a{color:#7ee2
     <div class="strip" style="margin-top:20px"><div><strong>Ye website bilkul free hai?</strong><br><span style="font-size:14px">Haan — saare tools free hain, koi sign-up, koi watermark nahi.</span></div></div>
   </div>
   <div class="faq">
-    <details open><summary>Kya main kisi bhi YouTube / Instagram video ko download kar sakta hoon?</summary><p>Sirf woh content jo aap ka apna hai ya jis ke liye aap ke paas owner ki permission hai. Upar downloader mein link paste karke quality choose karein aur Download dabayein — file seedha Gallery / Downloads mein save ho jayegi. Kisi aur ki copyrighted video bina permission download karna platforms ke rules aur copyright law ke khilaf hai.</p></details>
+    <details open><summary>Kya main kisi bhi YouTube / Instagram video ko download kar sakta hoon?</summary><p>Sirf woh content jo aap ka apna hai ya jis ke liye aap ke paas owner ki permission hai. Upar downloader mein link paste karein — neeche Y2Mate wala section aa jayega, wahan se quality choose karke Download dabayein — file seedha Gallery / Downloads mein save ho jayegi. Kisi aur ki copyrighted video bina permission download karna platforms ke rules aur copyright law ke khilaf hai.</p></details>
     <details><summary>Meri files kahan jati hain? Kya ye safe hai?</summary><p>Kahin nahi jati. Video to MP3, background remover aur compressor — sab processing aap ke apne browser mein hoti hai. Koi file kisi server par upload nahi hoti.</p></details>
     <details><summary>Video to MP3 mein time kyun lagta hai?</summary><p>Browser file ko real-time play kar ke audio record karta hai, taaki koi server na chahiye ho. 3-minute ki video mein takreeban 3 minute lagenge. Tab khula rakhein.</p></details>
     <details><summary>Background remover har photo par kaam karega?</summary><p>Character / insaan wali photo ke liye “AI Character / Person” mode chunein — ye busy, multi-colour background ko bhi poora hata deta hai aur character ko intact rakhta hai (pehli baar internet se AI model load hota hai). Product ya aam photo ke liye “General Photo” mode kinaron se background hatata hai, aur ek-rang (safed / green) background ke liye “Solid Background” mode hai — ye dono offline bhi chalte hain. Cleanup strength slider se edges adjust karein.</p></details>
@@ -503,253 +443,7 @@ function detect(url){
   var ytId=null; var m=u.match(/(?:youtube\.com\/(?:watch\?v=|shorts\/|embed\/)|youtu\.be\/)([A-Za-z0-9_-]{11})/); if(m) ytId=m[1];
   return {url:u,platform:p,type:type,ytId:ytId,host:host};
 }
-var currentDetected=null, currentFmtTab='all', selectedFmtLabel='', dlBusy=false;
-var BACKEND_BASE='https://freemediatools-backend-production.up.railway.app';
-var backendFormats=null, backendTitle='', backendDuration=null, backendFetchToken=0;
-function fmtDuration(sec){ if(sec==null||isNaN(sec)) return ''; sec=Math.round(+sec); var h=Math.floor(sec/3600), m=Math.floor((sec%3600)/60), s=sec%60; function p(n){return (n<10?'0':'')+n;} return h>0?(h+':'+p(m)+':'+p(s)):(m+':'+p(s)); }
-function fmtSize(bytes){ if(!bytes||isNaN(bytes)) return ''; var mb=+bytes/1048576; return mb>=1?(' • '+mb.toFixed(1)+' MB'):(' • '+Math.max(1,Math.round(+bytes/1024))+' KB'); }
-function setBackendStatus(msg,loading){ var el=document.getElementById('backendStatus'); if(!el) return; el.textContent=msg||''; el.className='backend-status'+(loading?' loading':''); }
-function showBackendNote(html){ var el=document.getElementById('backendNote'); if(!el) return; if(html){ el.innerHTML=html; el.classList.add('show'); } else { el.innerHTML=''; el.classList.remove('show'); } }
-function backendDownloadUrl(f){ var u=encodeURIComponent(currentDetected.url); if(f.kind==='audio') return BACKEND_BASE+'/api/audio?url='+u; return BACKEND_BASE+'/api/download?url='+u+'&quality='+f.qualityNum; }
-function normalizeBackendFormats(list){
-  var out=[];
-  (list||[]).forEach(function(f){
-    if(!f) return;
-    var q=String(f.quality||'').toLowerCase();
-    if(q==='audio'||f.kind==='audio'){ out.push({label:'Audio MP3', ext:'MP3', kind:'audio', qualityNum:0, badge:'MP3', meta:'Sirf audio / gaana — backend se seedha MP3 download hoga'+fmtSize(f.filesize)}); return; }
-    var m=/(\d+)/.exec(q); if(!m) return;
-    var num=+m[1];
-    var badge=num>=1080?'Full HD':(num>=720?'HD':(num+'p'));
-    var res=num>=1080?'1920 × 1080':(num>=720?'1280 × 720':(num>=480?'854 × 480':(num>=360?'640 × 360':'')));
-    out.push({label:num+'p', ext:(f.ext||'mp4').toUpperCase(), kind:'video', qualityNum:num, badge:badge, meta:(res?res+' • ':'')+'MP4 video — backend se seedha Gallery / Downloads mein save hoga'+fmtSize(f.filesize)});
-  });
-  // Backend ki formats list mein audio entry ho ya na ho — Audio MP3 ka button hamesha dikhao,
-  // kyunke backend ka /api/audio endpoint har video ka asli MP3 deta hai.
-  var hasAudio=out.some(function(f){return f.kind==='audio';});
-  if(!hasAudio){
-    out.push({label:'Audio MP3', ext:'MP3', kind:'audio', qualityNum:0, badge:'MP3', meta:'Sirf audio / gaana — backend se seedha MP3 download hoga'});
-  }
-  out.sort(function(a,b){ if(a.kind!==b.kind) return a.kind==='video'?-1:1; return b.qualityNum-a.qualityNum; });
-  return out;
-}
-var VIDEO_FORMATS=[
-  {label:'1080p Full HD', ext:'MP4', kind:'video', quality:1080, badge:'Full HD', meta:'1920 × 1080 • Sab se saaf quality • Andaza: 3 min ≈ 70–120 MB'},
-  {label:'720p HD', ext:'MP4', kind:'video', quality:720, badge:'HD', meta:'1280 × 720 • Mobile + TV ke liye best • Andaza: 3 min ≈ 35–60 MB'},
-  {label:'480p', ext:'MP4', kind:'video', quality:480, badge:'SD', meta:'854 × 480 • Data kam lagega • Andaza: 3 min ≈ 18–30 MB'},
-  {label:'360p', ext:'MP4', kind:'video', quality:360, badge:'360p', meta:'640 × 360 • Slow internet ke liye • Andaza: 3 min ≈ 10–18 MB'},
-  {label:'240p', ext:'MP4', kind:'video', quality:240, badge:'240p', meta:'426 × 240 • Chhoti file • Andaza: 3 min ≈ 5–10 MB'},
-  {label:'144p', ext:'MP4', kind:'video', quality:144, badge:'144p', meta:'256 × 144 • Sab se chhoti file, sab se kam data • Andaza: 3 min ≈ 2–4 MB'}
-];
-var AUDIO_FORMATS=[
-  {label:'Audio MP3', ext:'MP3', kind:'audio', quality:320, badge:'MP3', meta:'Sirf audio / gaana — 320 kbps best quality • Andaza: 3 min ≈ 7–8 MB'},
-  {label:'Audio M4A', ext:'M4A', kind:'audio', quality:128, badge:'M4A', meta:'Sirf audio — phone par direct chalta hai • Andaza: 3 min ≈ 3 MB'}
-];
-var PHOTO_FORMATS=[
-  {label:'Thumbnail — 1280 × 720 (HD)', ext:'JPG', kind:'photo', quality:720, badge:'HD Thumb', meta:'YouTube thumbnail HD size mein — seedha download hota hai'},
-  {label:'Thumbnail — 480 × 360', ext:'JPG', kind:'photo', quality:360, badge:'Thumb', meta:'YouTube thumbnail chhota size — seedha download hota hai'}
-];
-function getFormatsForTab(tab){
-  if(tab==='photo') return PHOTO_FORMATS;
-  if(backendFormats && backendFormats.length){
-    if(tab==='audio') return backendFormats.filter(function(f){return f.kind==='audio';});
-    if(tab==='video') return backendFormats.filter(function(f){return f.kind==='video';});
-    return backendFormats;
-  }
-  if(tab==='audio') return AUDIO_FORMATS;
-  if(tab==='video') return VIDEO_FORMATS;
-  return VIDEO_FORMATS.concat(AUDIO_FORMATS);
-}
-function setDlStatus(msg){ var el=document.getElementById('dlStatus'); if(el) el.textContent=msg; }
-function setDlProgress(pct){ var w=document.getElementById('dlProgWrap'), b=document.getElementById('dlProg'); if(!w||!b) return; w.style.display='block'; b.style.width=Math.max(0,Math.min(100,pct))+'%'; }
-function setProcess(title, sub, steps){
-  document.getElementById('processTitle').textContent=title;
-  document.getElementById('processSub').innerHTML=sub;
-  var ol=document.getElementById('processSteps'); ol.innerHTML='';
-  (steps||[]).forEach(function(s){ var li=document.createElement('li'); li.innerHTML=s; ol.appendChild(li); });
-}
-function fetchWithTimeout(url, opts, ms){
-  ms=ms||18000; opts=opts||{};
-  if(window.AbortController){ var c=new AbortController(); opts.signal=c.signal; var t=setTimeout(function(){try{c.abort();}catch(e){}},ms); return fetch(url,opts).then(function(r){clearTimeout(t); return r;},function(e){clearTimeout(t); throw e;}); }
-  return fetch(url,opts);
-}
-function triggerFileDownload(fileUrl, filename){
-  // Pehle blob ke tor par download try karo — is se browser seedha "Save" karta hai, nayi site nahi khulti.
-  return fetchWithTimeout(fileUrl,{mode:'cors'},60000).then(function(resp){
-    if(!resp.ok) throw new Error('HTTP '+resp.status);
-    return resp.blob();
-  }).then(function(blob){
-    if(!blob || !blob.size) throw new Error('empty file');
-    if(!saveBlob(blob, filename)) throw new Error('save blocked');
-    return 'saved';
-  }).catch(function(){
-    // Source site ne direct save block kiya (CORS) — file naye tab mein khol do aur jhooti
-    // "download start" khabar mat do; wahan se user ⋮ menu / long-press se Gallery/Downloads mein save kar sakta hai.
-    try{ window.open(fileUrl,'_blank','noopener'); }catch(e){}
-    return 'opened';
-  });
-}
-var COBALT_INSTANCES=['https://api.cobalt.tools','https://co.wuk.sh','https://cobalt-api.kwiatekmiki.com'];
-function cobaltRequest(instance,d,f){
-  var body={url:d.url, filenameStyle:'basic'};
-  if(f.kind==='audio'){ body.downloadMode='audio'; body.audioFormat=(f.ext&&f.ext.toLowerCase()==='m4a')?'m4a':'mp3'; body.audioBitrate='320'; }
-  else { body.downloadMode='auto'; body.videoQuality=String(f.quality||720); body.youtubeVideoCodec='h264'; }
-  var headers={'Accept':'application/json','Content-Type':'application/json'};
-  function parse(data){
-    if(!data) throw new Error('empty');
-    if(data.status==='error') throw new Error('cobalt-error');
-    if(data.url) return {url:data.url, filename:data.filename||''};
-    if(data.picker&&data.picker.length){ for(var i=0;i<data.picker.length;i++){ if(data.picker[i]&&data.picker[i].url) return {url:data.picker[i].url, filename:data.filename||''}; } }
-    throw new Error('no-file');
-  }
-  return fetchWithTimeout(instance+'/',{method:'POST',headers:headers,body:JSON.stringify(body)},20000).then(function(r){ if(!r.ok) throw new Error('HTTP '+r.status); return r.json(); }).then(parse).catch(function(){
-    return fetchWithTimeout(instance+'/api/json',{method:'POST',headers:headers,body:JSON.stringify(body)},20000).then(function(r){ if(!r.ok) throw new Error('HTTP '+r.status); return r.json(); }).then(parse);
-  });
-}
-function resolveDownload(d,f){
-  // Direct file link (.mp4/.mp3/.jpg) aur YouTube thumbnail seedha yahin se download hote hain.
-  // Platform video/audio (YouTube, Instagram, TikTok, Facebook…) ke liye download server se
-  // asal media file li jati hai taaki Download dabate hi file device mein save ho — koi steps nahi.
-  var direct=d.url.match(/\.(mp4|webm|mov|mp3|m4a|wav|ogg|jpg|jpeg|png|webp)(\?|$)/i);
-  if(direct) return Promise.resolve({url:d.url, filename:''});
-  if(f.kind==='photo' && d.ytId){
-    var q=f.quality>=720?'maxresdefault':'hqdefault';
-    return Promise.resolve({url:'https://i.ytimg.com/vi/'+d.ytId+'/'+q+'.jpg', filename:''});
-  }
-  if(f.kind==='photo') return Promise.reject(new Error('no-photo'));
-  var chain=Promise.reject(new Error('start'));
-  COBALT_INSTANCES.forEach(function(inst){ chain=chain.catch(function(){ return cobaltRequest(inst,d,f); }); });
-  return chain;
-}
-// ---------- YouTube direct pipeline (test-verified) ----------
-// YouTube ki asal streams open Invidious servers se li jati hain (?local=true wale proxied
-// URLs par CORS open hai). Ek server file na de to taaza links ke saath doosra server
-// khud try hota hai (kul 3 koshish). Video + awaaz browser ke andar ffmpeg se ek MP4 mein
-// jodte hain; MP3 halke lamejs encoder se banta hai taaki asal .mp3 mile. File seedha
-// Downloads / Gallery mein save hoti hai — koi steps nahi.
-var INV_INSTANCES=['https://yt.chocolatemoo53.com','https://inv.nadeko.net','https://invidious.0011.lt','https://invidious.jing.rocks'];
-function fetchYtData(ytId, startIdx){
-  // startIdx se server badal kar try hota hai — ek server busy / band ho to doosra jawab deta hai,
-  // aur har nayi koshish par taaza (fresh) stream links milte hain.
-  var chain=Promise.reject(new Error('start'));
-  var order=[];
-  for(var k=0;k<INV_INSTANCES.length;k++) order.push(INV_INSTANCES[((startIdx||0)+k)%INV_INSTANCES.length]);
-  order.forEach(function(inst){
-    chain=chain.catch(function(){
-      return fetchWithTimeout(inst+'/api/v1/videos/'+ytId+'?local=true',{},20000).then(function(r){ if(!r.ok) throw new Error('HTTP '+r.status); return r.json(); }).then(function(data){
-        if(!data || (!data.adaptiveFormats && !data.formatStreams)) throw new Error('no-streams');
-        return data;
-      });
-    });
-  });
-  return chain;
-}
-function streamHeight(f){ var q=f.qualityLabel||''; var m=/(\d+)p/.exec(q); if(m) return +m[1]; var r=f.resolution||''; var m2=/x(\d+)/.exec(r); return m2?+m2[1]:0; }
-function pickByHeight(list,target){ var best=null,bd=1e9; list.forEach(function(f){ var h=streamHeight(f); var dd=Math.abs(h-target); if(dd<bd||(dd===bd&&best&&h>streamHeight(best))){ bd=dd; best=f; } }); return best; }
-function bestAudio(list){ var best=null,bb=-1; list.forEach(function(f){ var b=+f.bitrate||0; if(b>bb){bb=b;best=f;} }); return best||list[0]||null; }
-function fetchBlob(url,ms){ return fetchWithTimeout(url,{},ms||600000).then(function(r){ if(!r.ok) throw new Error('HTTP '+r.status); return r.blob(); }).then(function(b){ if(!b||!b.size) throw new Error('empty'); return b; }); }
-function fetchBlobProg(url, onProg, ms){
-  // Stream ki asal progress (MB) ke saath download — taaki user ko pata chale file aa rahi hai, sirf intezaar nahi.
-  return fetchWithTimeout(url,{},ms||600000).then(function(r){
-    if(!r.ok) throw new Error('HTTP '+r.status);
-    var total=parseInt(r.headers.get('content-length')||'0',10)||0;
-    if(!r.body || !r.body.getReader || !total) return r.blob();
-    var reader=r.body.getReader(), chunks=[], got=0;
-    function pump(){
-      return reader.read().then(function(res){
-        if(res.done) return new Blob(chunks);
-        chunks.push(res.value); got+=res.value.length;
-        if(onProg) onProg(got,total);
-        return pump();
-      });
-    }
-    return pump();
-  }).then(function(b){ if(!b||!b.size) throw new Error('empty'); return b; });
-}
-function mbStr(n){ return (Math.round(n/104857.6)/10)+' MB'; }
-function pickVideo(list,target){
-  // Pehle H.264 (avc1) stream — har phone / player par chalti hai; na mile to koi bhi MP4 stream.
-  var avc=list.filter(function(x){ return (((x.type||'')+' '+(x.codecs||'')).indexOf('avc1')>-1); });
-  return pickByHeight(avc.length?avc:list, target);
-}
-function loadScriptOnce(src){ return new Promise(function(res,rej){ var s=document.createElement('script'); s.src=src; s.onload=function(){res();}; s.onerror=function(){rej(new Error('script-load'));}; document.head.appendChild(s); }); }
-var ffmpegObj=null, ffmpegLoading=null;
-var FFMPEG_CDNS=['https://cdn.jsdelivr.net/npm','https://unpkg.com'];
-function getFFmpeg(){
-  if(ffmpegObj) return Promise.resolve(ffmpegObj);
-  if(ffmpegLoading) return ffmpegLoading;
-  function tryCdn(i){
-    var base=FFMPEG_CDNS[i];
-    var ready=window.FFmpeg?Promise.resolve():loadScriptOnce(base+'/@ffmpeg/ffmpeg@0.11.0/dist/ffmpeg.min.js');
-    return ready.then(function(){
-      if(!window.FFmpeg) throw new Error('no-ffmpeg');
-      var ff=FFmpeg.createFFmpeg({log:false, corePath:base+'/@ffmpeg/core@0.11.0/dist/ffmpeg-core.js'});
-      return ff.load().then(function(){ return ff; });
-    }).catch(function(e){ if(i+1<FFMPEG_CDNS.length) return tryCdn(i+1); throw e; });
-  }
-  ffmpegLoading=tryCdn(0).then(function(ff){ ffmpegObj=ff; return ff; }).catch(function(e){ ffmpegLoading=null; throw e; });
-  return ffmpegLoading;
-}
-function muxMp4(vBlob,aBlob,onProg){
-  return getFFmpeg().then(function(ff){
-    if(onProg) ff.setProgress(onProg);
-    return FFmpeg.fetchFile(vBlob).then(function(vd){ ff.FS('writeFile','v.mp4',vd); return FFmpeg.fetchFile(aBlob); }).then(function(ad){ ff.FS('writeFile','a.m4a',ad); return ff.run('-i','v.mp4','-i','a.m4a','-c','copy','-movflags','+faststart','out.mp4'); }).then(function(){
-      var data=ff.FS('readFile','out.mp4');
-      try{ ff.FS('unlink','v.mp4'); ff.FS('unlink','a.m4a'); ff.FS('unlink','out.mp4'); }catch(e){}
-      return new Blob([data.buffer],{type:'video/mp4'});
-    });
-  });
-}
-function convertToMp3(aBlob,onProg){
-  return getFFmpeg().then(function(ff){
-    if(onProg) ff.setProgress(onProg);
-    return FFmpeg.fetchFile(aBlob).then(function(ad){ ff.FS('writeFile','a.m4a',ad); return ff.run('-i','a.m4a','-vn','-c:a','libmp3lame','-b:a','320k','out.mp3'); }).then(function(){
-      var data=ff.FS('readFile','out.mp3');
-      try{ ff.FS('unlink','a.m4a'); ff.FS('unlink','out.mp3'); }catch(e){}
-      return new Blob([data.buffer],{type:'audio/mpeg'});
-    });
-  });
-}
-var lameLoading=null;
-function getLame(){
-  if(window.lamejs) return Promise.resolve(window.lamejs);
-  if(lameLoading) return lameLoading;
-  lameLoading=loadScriptOnce('https://cdn.jsdelivr.net/npm/lamejs@1.2.1/lame.min.js').catch(function(){ return loadScriptOnce('https://unpkg.com/lamejs@1.2.1/lame.min.js'); }).then(function(){
-    if(!window.lamejs) throw new Error('no-lame');
-    return window.lamejs;
-  }).catch(function(e){ lameLoading=null; throw e; });
-  return lameLoading;
-}
-function convertToMp3Fast(aBlob,onProg){
-  // Asal MP3: audio ko browser mein decode karke halke MP3 encoder (lamejs) se encode kiya jata hai —
-  // bade ffmpeg converter ka intezaar nahi, aur file sach-much .mp3 banti hai, M4A nahi.
-  return getLame().then(function(lame){
-    return aBlob.arrayBuffer().then(function(buf){
-      var AC=window.AudioContext||window.webkitAudioContext;
-      if(!AC) throw new Error('no-webaudio');
-      var ctx=new AC();
-      return ctx.decodeAudioData(buf).then(function(audio){
-        var numCh=Math.min(2,audio.numberOfChannels)||1, sr=audio.sampleRate;
-        var left=audio.getChannelData(0), right=numCh>1?audio.getChannelData(1):left;
-        var enc=new lame.Mp3Encoder(numCh, sr, 320);
-        var parts=[], block=1152, total=left.length;
-        function f2i16(ch,off,len){ var out=new Int16Array(len); for(var i=0;i<len;i++){ var s=Math.max(-1,Math.min(1,ch[off+i])); out[i]=s<0?s*0x8000:s*0x7FFF; } return out; }
-        for(var off=0; off<total; off+=block){
-          var len=Math.min(block,total-off);
-          var data=numCh>1?enc.encodeBuffer(f2i16(left,off,len), f2i16(right,off,len)):enc.encodeBuffer(f2i16(left,off,len));
-          if(data.length) parts.push(new Int8Array(data));
-          if(onProg && (off/block)%80===0) onProg(off/total);
-        }
-        var tail=enc.flush(); if(tail.length) parts.push(new Int8Array(tail));
-        try{ ctx.close(); }catch(e){}
-        if(onProg) onProg(1);
-        var mp3=new Blob(parts,{type:'audio/mpeg'});
-        if(!mp3.size) throw new Error('mp3-empty');
-        return mp3;
-      });
-    });
-  });
-}
-function slugTitle(t){ var s=(t||'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'').slice(0,60); return s||'youtube-video'; }
+var currentDetected=null;
 // ---------- Y2Mate backup (tested working) ----------
 // Y2Mate ka button hamesha homepage (https://y2mate.tw/) kholta hai — deep link
 // (https://y2mate.tw/youtube/<videoId>) 404 deta hai, is liye woh istemal nahi hota.
@@ -765,288 +459,22 @@ function updateY2MateBox(){
     box.classList.remove('show'); box.classList.remove('highlight');
   }
 }
-function showY2MateFallback(scroll){
-  updateY2MateBox();
-  var box=document.getElementById('y2mateBox'); if(!box) return;
-  box.classList.add('show'); box.classList.add('highlight');
-  var st=document.getElementById('y2mateStatus'); if(st) st.textContent='👇 Apna server fail ho gaya — neeche orange Y2Mate button dabayein, wahi se asal MP4 file milegi.';
-  if(scroll) setTimeout(function(){ try{ box.scrollIntoView({behavior:'smooth',block:'center'}); }catch(e){} },350);
-}
-function bindY2Mate(){
-  var btn=document.getElementById('y2mateBtn'), cp=document.getElementById('y2mateCopyBtn');
-  if(btn) btn.addEventListener('click',function(){
-    // Backup ke tor par link clipboard mein bhi rakh do — agar Y2Mate homepage khule to ek paste hi kaafi hai.
-    if(currentDetected && navigator.clipboard && navigator.clipboard.writeText){ try{ navigator.clipboard.writeText(currentDetected.url); }catch(e){} }
-    var st=document.getElementById('y2mateStatus'); if(st) st.textContent='Y2Mate khul raha hai — wahan MP4 720p (ya apni quality) ke samne Download dabayein.';
-  });
-  if(cp) cp.addEventListener('click',function(){
-    if(!currentDetected) return;
-    copyToClipboard(currentDetected.url, document.getElementById('y2mateStatus'), 'Video link copy ho gaya — Y2Mate par paste karke Search dabadein.');
-  });
-}
-function startYtDownload(f){
-  if(dlBusy) return;
-  dlBusy=true; selectedFmtLabel=f.label+' '+f.ext; renderFormatList();
-  document.querySelectorAll('.fmt-dl').forEach(function(b){ b.disabled=true; });
-  var selRow=document.querySelector('.fmt-row.selected .fmt-dl'); if(selRow) selRow.textContent='⏳ Preparing…';
-  var pb=document.getElementById('processBox'); if(pb) pb.scrollIntoView({behavior:'smooth',block:'nearest'});
-  setDlProgress(8);
-  setProcess('⏳ Download tayyar ho raha hai — '+f.label+' ('+f.ext+')',
-    'YouTube se asal video file li ja rahi hai — file seedha aap ke <b>Downloads / Gallery</b> mein save hogi, YouTube app ke andar nahi rukegi.',
-    ['<b>Step 1 — Streams:</b> <span>Video ki asal streams download server se li jati hain.</span>',
-     '<b>Step 2 — File banti hai:</b> <span>'+(f.kind==='audio'?'Sirf awaaz ki file download hogi.':'Video aur awaaz ko ek hi MP4 file mein joda jayega — is mein kuch seconds lag sakte hain.')+'</span>',
-     '<b>Step 3 — Save:</b> <span>File tayyar hote hi download start ho jayega — Downloads / Gallery mein check karein.</span>']);
-  setDlStatus('⏳ YouTube streams liye ja rahe hain…');
-  var baseName='freemediatools-youtube';
-  function finishOk(name,note){
-    setDlProgress(100);
-    setDlStatus('✅ Download start ho gaya: '+name+' — apne Downloads folder / Gallery mein check karein.');
-    setProcess('✅ Download start — '+f.label+' ('+f.ext+')', 'File <b>'+name+'</b> download ho rahi hai.',
-      ['<b>Ho gaya:</b> <span>Download browser mein chal raha hai — progress browser ke download icon (↓) mein dikhegi.</span>',
-       '<b>File kahan milegi:</b> <span>Phone / computer ke <b>Downloads</b> folder mein, naam: '+name+' — Gallery app mein bhi dikhegi.</span>',
-       (note?'<b>Note:</b> <span>'+note+'</span>':'<b>Ek aur quality chahiye?</b> <span>Upar kisi aur quality par Download dabayein.</span>')]);
-  }
-  function finishErr(){
-    setDlProgress(0);
-    setDlStatus('⚠️ Apne server se file nahi mili — neeche Y2Mate wala backup rasta khul gaya hai, orange button dabayein.');
-    setProcess('⚠️ Apna server fail — ab Y2Mate se download karein — '+f.label+' ('+f.ext+')',
-      'Teenon servers se file nahi mili. Fikr nahi — <b>neeche Y2Mate (Tested Working) wala orange button</b> hai: woh Y2Mate homepage kholega aur video link khud copy ho jayega — wahan link paste karein, MP4 quality choose karke asal file download ho jayegi.',
-      ['<b>Ab ye karein:</b> <span>Neeche <b>“Y2Mate par MP4 Download karein”</b> wala orange button dabayein — Y2Mate homepage khulega, link pehle hi copy ho chuka hoga, wahan paste karke Search dabadein.</span>',
-       '<b>Y2Mate par:</b> <span>MP4 list mein <b>720p</b> (ya 360p / 480p / 1080p) ke samne <b>Download</b> dabayein — file Gallery / Downloads mein save hogi.</span>',
-       '<b>Ya dobara try:</b> <span>10–20 seconds ruk kar yahan isi quality par dobara Download bhi daba sakte hain.</span>']);
-    showY2MateFallback(true);
-  }
-  function resetBtns(){ dlBusy=false; document.querySelectorAll('.fmt-dl').forEach(function(b){ b.disabled=false; b.textContent='⬇ Download'; }); }
-  var attemptNo=0;
-  function runAttempt(){
-   return fetchYtData(currentDetected.ytId, attemptNo).then(function(data){
-    baseName=slugTitle(data.title);
-    var adaptive=data.adaptiveFormats||[], combined=data.formatStreams||[];
-    if(f.kind==='audio'){
-      var auds=adaptive.filter(function(x){ return (x.type||'').indexOf('audio/mp4')===0; });
-      var a=bestAudio(auds.length?auds:adaptive.filter(function(x){ return (x.type||'').indexOf('audio/')===0; }));
-      if(!a) throw new Error('no-audio');
-      setDlProgress(30); setDlStatus('⏳ Audio file download ho rahi hai…');
-      return fetchBlobProg(a.url,function(g,t){ setDlProgress(30+Math.round(20*g/t)); setDlStatus('⏳ Audio download ho raha hai… '+mbStr(g)+' / '+mbStr(t)); }).then(function(aBlob){
-        if(f.ext==='MP3'){
-          setDlProgress(55); setDlStatus('⏳ Asal MP3 ban raha hai…');
-          return convertToMp3Fast(aBlob,function(r){ setDlProgress(55+Math.round(r*40)); }).catch(function(){ setDlStatus('⏳ MP3 ban raha hai… (converter load ho raha hai)'); return convertToMp3(aBlob,function(p){ if(p&&p.ratio) setDlProgress(55+Math.round(p.ratio*40)); }); }).then(function(mp3){
-            if(!saveBlob(mp3, baseName+'.mp3')) throw new Error('save');
-            finishOk(baseName+'.mp3');
-          },function(){
-            if(!saveBlob(aBlob, baseName+'.m4a')) throw new Error('save');
-            finishOk(baseName+'.m4a','MP3 converter nahi chala, is liye audio asal M4A quality mein de di hai — ye bhi har phone par chalti hai.');
-          });
-        }
-        if(!saveBlob(aBlob, baseName+'.m4a')) throw new Error('save');
-        finishOk(baseName+'.m4a');
-      });
-    }
-    // Video: pehle ready-made (awaaz wali) file, warna video+audio jod kar MP4
-    var combMp4=combined.filter(function(x){ return (x.container||'')==='mp4'||(x.type||'').indexOf('video/mp4')===0; });
-    var comb=combMp4.length?pickByHeight(combMp4,f.quality):null;
-    if(comb){
-      setDlProgress(35); setDlStatus('⏳ '+f.label+' file download ho rahi hai…');
-      return fetchBlobProg(comb.url,function(g,t){ setDlProgress(35+Math.round(55*g/t)); setDlStatus('⏳ '+f.label+' download ho raha hai… '+mbStr(g)+' / '+mbStr(t)); }).then(function(b){
-        var name=baseName+'-'+f.quality+'p.mp4';
-        if(!saveBlob(b,name)) throw new Error('save');
-        finishOk(name);
-      });
-    }
-    var vids=adaptive.filter(function(x){ return (x.type||'').indexOf('video/mp4')===0; });
-    var auds2=adaptive.filter(function(x){ return (x.type||'').indexOf('audio/mp4')===0; });
-    var v=pickVideo(vids,f.quality), a2=bestAudio(auds2);
-    if(!v||!a2) throw new Error('no-streams');
-    var realH=streamHeight(v);
-    setDlProgress(25); setDlStatus('⏳ Video ('+(realH?realH+'p':'')+') download ho raha hai — '+(f.quality>=1080?'badi file hai, Wi-Fi par behtar rahega…':'thoda intezaar karein…'));
-    return fetchBlobProg(v.url,function(g,t){ setDlProgress(25+Math.round(30*g/t)); setDlStatus('⏳ Video download ho raha hai… '+mbStr(g)+' / '+mbStr(t)); }).then(function(vBlob){
-      setDlProgress(55); setDlStatus('⏳ Awaaz download ho rahi hai…');
-      return fetchBlobProg(a2.url,function(g,t){ setDlProgress(55+Math.round(12*g/t)); setDlStatus('⏳ Awaaz download ho rahi hai… '+mbStr(g)+' / '+mbStr(t)); }).then(function(aBlob){
-        setDlProgress(70); setDlStatus('⏳ Video + awaaz jodi ja rahi hai (MP4 ban raha hai)… pehli baar converter load hone mein time lagega.');
-        return muxMp4(vBlob,aBlob,function(p){ if(p&&p.ratio) setDlProgress(70+Math.round(p.ratio*28)); }).then(function(outBlob){
-          var name=baseName+'-'+(realH||f.quality)+'p.mp4';
-          if(!saveBlob(outBlob,name)) throw new Error('save');
-          finishOk(name, realH&&realH!==f.quality?('Is video mein '+f.label+' ki asal stream maujood nahi thi, is liye sab se qareebi sab se achhi quality '+realH+'p de di hai.'):'');
-        });
-      });
-    });
-   }).then(function(){},function(err){
-     if(attemptNo<2){ attemptNo++; setDlProgress(10); setDlStatus('⚠️ Pehle server se file nahi mili — doosra download server try ho raha hai… (koshish '+(attemptNo+1)+' / 3)'); return runAttempt(); }
-     throw err;
-   });
-  }
-  runAttempt().then(function(){ resetBtns(); },function(){ finishErr(); resetBtns(); });
-}
-function startDirectDownload(f, btn){
-  if(!currentDetected || dlBusy) return;
-  if(currentDetected.ytId && f.kind!=='photo'){ startYtDownload(f); return; }
-  dlBusy=true; selectedFmtLabel=f.label+' '+f.ext; renderFormatList();
-  var allBtns=document.querySelectorAll('.fmt-dl'); allBtns.forEach(function(b){b.disabled=true;});
-  var selRow=document.querySelector('.fmt-row.selected .fmt-dl'); if(selRow){ selRow.textContent='⏳ Preparing…'; }
-  var filename='freemediatools-'+currentDetected.platform.toLowerCase().replace(/[^a-z0-9]+/g,'-')+'-'+(f.kind==='audio'?'audio-'+f.ext.toLowerCase():(f.quality+'p'))+'.'+f.ext.toLowerCase();
-  setDlProgress(18);
-  setProcess('⏳ Download tayyar ho raha hai — '+f.label+' ('+f.ext+')',
-    currentDetected.platform+' link ke liye <b>'+f.label+'</b> ki file tayyar ki ja rahi hai…',
-    ['<b>Step 1 — Link:</b> <span>'+currentDetected.url+'</span>',
-     '<b>Step 2 — Format:</b> <span>'+f.label+' • '+f.ext+' — file isi quality mein download hogi.</span>',
-     '<b>Step 3 — Download:</b> <span>Download server se file aa rahi hai — start hote hi file seedha Downloads / Gallery mein save hogi.</span>']);
-  setDlStatus('⏳ '+f.label+' ki file download server se tayyar ho rahi hai…');
-  var pb0=document.getElementById('processBox'); if(pb0) pb0.scrollIntoView({behavior:'smooth',block:'nearest'});
-  resolveDownload(currentDetected,f).then(function(res){
-    setDlProgress(55);
-    setDlStatus('✅ File mil gayi — download start ho raha hai: '+filename);
-    var finalName=res.filename||filename;
-    return triggerFileDownload(res.url, finalName).then(function(mode){ return {name:finalName, mode:mode}; });
-  }).then(function(out){
-    setDlProgress(100);
-    var pb=document.getElementById('processBox'); if(pb) pb.scrollIntoView({behavior:'smooth',block:'nearest'});
-    if(out.mode==='opened'){
-      setDlStatus('ℹ️ Source site ne direct save roka — file naye tab mein khol di hai. Wahan ⋮ menu ya long-press se “Save / Download” dabayein, file Gallery / Downloads mein save ho jayegi.');
-      setProcess('📂 File khul gayi — wahan se Save karein ('+f.label+' '+f.ext+')',
-        'File <b>'+out.name+'</b> naye tab mein khuli hai.',
-        ['<b>Gallery / Downloads mein save karne ke liye:</b> <span>Naye tab mein video / photo par <b>long-press</b> karein ya browser ke <b>⋮ menu → Download / Save</b> dabayein — file seedha Gallery / Downloads folder mein save ho jayegi.</span>',
-         '<b>Ek aur quality chahiye?</b> <span>Is tab par wapas aakar kisi aur quality par Download dabayein.</span>']);
-      return;
-    }
-    setDlStatus('✅ Download start ho gaya: '+out.name+' — apne Downloads folder / Gallery mein check karein.');
-    setProcess('✅ Download start — '+f.label+' ('+f.ext+')',
-      'File <b>'+out.name+'</b> download ho rahi hai.',
-      ['<b>Ho gaya:</b> <span>Download browser mein chal raha hai — progress browser ke download icon (↓) mein dikhegi.</span>',
-       '<b>File kahan milegi:</b> <span>Phone / computer ke <b>Downloads</b> folder mein, naam: '+out.name+' — photo / video wahan se Gallery app mein bhi dikhegi.</span>',
-       '<b>Ek aur quality chahiye?</b> <span>Upar kisi aur quality (1080p / 720p / 480p / 360p / 240p / 144p / Audio MP3) par Download dabayein — woh bhi yahin se download hogi.</span>']);
-  }).catch(function(err){
-    setDlProgress(0);
-    var pb2=document.getElementById('processBox'); if(pb2) pb2.scrollIntoView({behavior:'smooth',block:'nearest'});
-    setDlStatus('⚠️ Download server se file nahi mili — YouTube video hai to neeche Y2Mate wala backup rasta khul gaya hai.');
-    setProcess('⚠️ Download start nahi ho saka — '+f.label+' ('+f.ext+')',
-      'Download server abhi busy hai ya us ne jawab nahi diya — is liye file start nahi hui.',
-      ['<b>YouTube video?</b> <span>Neeche <b>Y2Mate (Tested Working)</b> wala orange button dabayein — woh Y2Mate homepage kholega aur video link khud copy ho jayega; wahan link paste karein, MP4 quality choose karke asal file download karein.</span>',
-       '<b>Try 1:</b> <span>10–20 seconds ruk kar isi quality par dobara <b>Download</b> dabayein — server dobara file tayyar karega.</span>',
-       '<b>Try 2:</b> <span>Agar phir na ho to doosri quality chunein — <b>720p HD</b> sab se stable rehti hai.</span>']);
-    if(currentDetected && currentDetected.ytId) showY2MateFallback(true);
-  }).then(function(){
-    dlBusy=false;
-    document.querySelectorAll('.fmt-dl').forEach(function(b){b.disabled=false; b.textContent='⬇ Download';});
-  });
-}
-function renderFormatList(){
-  var listEl=document.getElementById('fmtList'); if(!listEl||!currentDetected) return;
-  var formats=getFormatsForTab(currentFmtTab);
-  listEl.innerHTML='';
-  var lastKind='';
-  formats.forEach(function(f){
-    if(currentFmtTab==='all' && f.kind!==lastKind){
-      lastKind=f.kind;
-      var head=document.createElement('div'); head.style.cssText='font-weight:800;font-size:13px;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);margin:8px 0 0';
-      head.textContent=f.kind==='audio'?'🎵 Audio — sirf awaaz / gaana':'🎬 Video — MP4';
-      listEl.appendChild(head);
-    }
-    var row=document.createElement('div'); row.className='fmt-row'+(selectedFmtLabel===f.label+' '+f.ext?' selected':''); row.setAttribute('data-quality', f.kind==='audio'?f.ext:f.label);
-    var left=document.createElement('div'); left.className='fmt-left';
-    var q=document.createElement('div'); q.className='fmt-q';
-    var qText=document.createElement('span'); qText.textContent=f.kind==='video'?('Video '+f.label+' '+f.ext):(f.label);
-    var badge=document.createElement('span'); badge.className='fmt-badge'+(f.kind==='audio'?' audio':''); badge.textContent=f.badge+' • '+f.ext;
-    q.appendChild(qText); q.appendChild(badge);
-    var meta=document.createElement('div'); meta.className='fmt-meta'; meta.textContent=f.meta;
-    left.appendChild(q); left.appendChild(meta);
-    var btn=document.createElement('button'); btn.type='button'; btn.className='btn btn-green fmt-dl'; btn.textContent='⬇ Download'; btn.setAttribute('aria-label','Download '+qText.textContent);
-    btn.addEventListener('click',function(){
-      if(backendFormats && backendFormats.length && f.kind!=='photo' && typeof f.qualityNum!=='undefined'){
-        var dlUrl=backendDownloadUrl(f);
-        setDlStatus('✅ Backend se download start ho raha hai: '+(f.kind==='audio'?'Audio MP3':f.label+' MP4')+' — file seedha Downloads / Gallery mein save hogi. Badi file ya slow server par thoda time lag sakta hai.');
-        setProcess('⬇ Backend Download — '+(f.kind==='audio'?'Audio MP3':f.label+' MP4'),
-          'File hamare <b>backend server</b> se aa rahi hai aur seedha aap ke <b>Downloads / Gallery</b> mein save hogi.',
-          ['<b>Download start:</b> <span>Naya tab khulega aur file download hona shuru ho jayegi — browser ke download icon (↓) mein progress dikhegi.</span>',
-           '<b>File kahan milegi:</b> <span>Phone / computer ke <b>Downloads</b> folder mein — Gallery app mein bhi dikhegi.</span>',
-           '<b>Agar download na chale:</b> <span>Neeche Y2Mate wala backup button bhi tayyar hai.</span>']);
-        try{ window.open(dlUrl,'_blank','noopener'); }catch(e){ setDlStatus('⚠️ Download tab nahi khul saka — browser ke pop-up blocker ko allow karke dobara Download dabayein.'); }
-        return;
-      }
-      startDirectDownload(f, btn);
-    });
-    row.appendChild(left); row.appendChild(btn);
-    listEl.appendChild(row);
-  });
-}
-function bindFmtTabs(){
-  var tabs=document.querySelectorAll('[data-fmt-tab]');
-  tabs.forEach(function(tab){
-    tab.addEventListener('click',function(){
-      currentFmtTab=tab.getAttribute('data-fmt-tab');
-      tabs.forEach(function(t){t.classList.toggle('active',t===tab);});
-      renderFormatList();
-    });
-  });
-}
 function showResult(){
   var d=detect(linkInput.value);
   if(!d){linkError.textContent='Link samajh nahi aaya — poora link paste karein, jaise https://www.youtube.com/watch?v=…'; result.classList.remove('show'); return;}
-  currentDetected=d; selectedFmtLabel='';
-  backendFormats=null; backendTitle=''; backendDuration=null;
-  var myToken=++backendFetchToken;
-  // Hamesha All Formats pehle — taaki 1080p se 144p tak saari video qualities aur Audio MP3 ek saath dikhein
-  currentFmtTab='all';
-  document.querySelectorAll('[data-fmt-tab]').forEach(function(t){t.classList.toggle('active',t.getAttribute('data-fmt-tab')===currentFmtTab);});
+  currentDetected=d;
   linkError.textContent='';
   document.getElementById('resPlatform').textContent=d.platform;
   document.getElementById('resType').textContent=d.type;
-  document.getElementById('resTitle').textContent=d.platform+' link detected — backend se video nikaala ja raha hai…';
-  document.getElementById('resDesc').textContent=d.url;
+  document.getElementById('resTitle').textContent=d.platform+' link detected — neeche Y2Mate se download karein';
+  document.getElementById('resDesc').textContent=d.url+(d.ytId?' — Link pehchan liya gaya hai. Neeche Y2Mate wala section hai — orange button dabayein, Y2Mate homepage khulega aur video link khud copy ho jayega; wahan link paste karke MP4 quality choose karke download karein.':' — Link pehchan liya gaya hai. “Open Original” se asal video kholein, ya usi file ko neeche wale tools (Video to MP3, Transcript) mein use karein.');
   document.getElementById('resOpen').href=d.url;
   var th=document.getElementById('resThumb');
   if(d.ytId){th.src='https://i.ytimg.com/vi/'+d.ytId+'/hqdefault.jpg'; th.style.display='block';} else {th.style.display='none'; th.removeAttribute('src');}
   result.classList.add('show');
-  showBackendNote('');
-  renderFormatList();
   updateY2MateBox();
   result.scrollIntoView({behavior:'smooth',block:'nearest'});
-  // ---- Pehle asli backend try karo (Render, free — jaghne mein 10–30s lag sakte hain, kul 25s tak intezaar) ----
-  setBackendStatus('⏳ Backend se video nikaal rahe hain...', true);
-  setDlStatus('⏳ Backend se video nikaal rahe hain... free server jaghne mein 10–30 seconds lag sakte hain, intezaar karein.');
-  setDlProgress(5);
-  var startedAt=Date.now();
-  var ticker=setInterval(function(){
-    if(myToken!==backendFetchToken){ clearInterval(ticker); return; }
-    var secs=Math.floor((Date.now()-startedAt)/1000);
-    setBackendStatus('⏳ Backend se video nikaal rahe hain... ('+secs+'s)', true);
-    setDlStatus('⏳ Backend se video nikaal rahe hain... ('+secs+'s) — free server jaghne mein 10–30 seconds lag sakte hain.');
-    setDlProgress(Math.min(90, 5+secs));
-  },1000);
-  fetchWithTimeout(BACKEND_BASE+'/api/info?url='+encodeURIComponent(d.url), {}, 25000).then(function(r){
-    if(!r.ok) throw new Error('HTTP '+r.status);
-    return r.json();
-  }).then(function(data){
-    clearInterval(ticker);
-    if(myToken!==backendFetchToken) return;
-    if(!data || data.error) throw new Error('backend-error');
-    var fmts=normalizeBackendFormats(data.formats);
-    if(!fmts.length) throw new Error('no-formats');
-    backendFormats=fmts; backendTitle=data.title||''; backendDuration=(data.duration!=null?data.duration:null);
-    if(data.thumbnail){ th.src=data.thumbnail; th.style.display='block'; }
-    document.getElementById('resTitle').textContent=backendTitle||(d.platform+' video — neeche apni quality par Download dabayein');
-    var durTxt=fmtDuration(backendDuration);
-    document.getElementById('resDesc').textContent=(durTxt?('⏱ Duration: '+durTxt+' • '):'')+d.url+' — Backend se asal video mil gaya hai. Neeche backend ki qualities aa gayi hain — har ek ke samne Download button hai, file seedha Downloads / Gallery mein save hogi.';
-    setBackendStatus('✅ Backend se video mil gaya'+(durTxt?' — Duration: '+durTxt:'')+'. Neeche apni quality par Download dabayein.', false);
-    showBackendNote('');
-    renderFormatList();
-    setDlStatus('✅ Backend ready hai — ab kisi bhi quality par Download dabayein, file seedha Downloads / Gallery mein save hogi.');
-    setDlProgress(100); setTimeout(function(){ var pw=document.getElementById('dlProgWrap'); if(pw) pw.style.display='none'; },600);
-  }).catch(function(){
-    clearInterval(ticker);
-    if(myToken!==backendFetchToken) return;
-    // Backend fail / timeout / YouTube bot-check — dead error nahi: purani format list + Y2Mate backup
-    backendFormats=null;
-    document.getElementById('resTitle').textContent=d.platform+' link detected — neeche apni quality par Download dabayein';
-    document.getElementById('resDesc').textContent=d.url+' — Link pehchan liya gaya hai. Neeche saare formats aa gaye hain: Video 1080p Full HD, 720p HD, 480p, 360p, 240p, 144p (MP4) aur Audio MP3 / M4A — har ek ke samne Download button hai.';
-    setBackendStatus('', false);
-    showBackendNote('<b>⚠️ Note:</b> Is video ke liye backend se download nahi ho saka (YouTube ne server ko roka hai) — neeche Y2Mate se download karein.');
-    renderFormatList();
-    setDlStatus('⚠️ Backend se download nahi ho saka — neeche format list aur Y2Mate wala backup button tayyar hai.');
-    setDlProgress(0); var pw2=document.getElementById('dlProgWrap'); if(pw2) pw2.style.display='none';
-    if(d.ytId) showY2MateFallback(false); else updateY2MateBox();
-  });
 }
-bindFmtTabs();
 bindY2Mate();
 linkInput.addEventListener('paste',function(){ setTimeout(function(){ if(linkInput.value.trim().length>8) showResult(); },120); });
 linkInput.addEventListener('input',function(){ if(linkInput.value.trim().match(/^https?:\/\/.+\..+/)) { /* typing ke dauran disturb na karein — sirf paste par auto */ } });
